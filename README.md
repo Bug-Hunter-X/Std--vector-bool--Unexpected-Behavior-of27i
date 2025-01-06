@@ -1,0 +1,1 @@
+This repository demonstrates a potential issue with std::vector<bool> in C++.  The specialization of std::vector<bool> optimizes memory usage, but this can lead to non-intuitive behavior when accessing elements.  The bug.cpp file shows the problematic code, while bugSolution.cpp provides a solution using a standard vector of integers or a different data structure.
